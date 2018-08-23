@@ -79,7 +79,7 @@ ul li
 
 ol
 {
-    margin: 0px 0px 10px 25px; /* 8px 0 22px 20px; */
+    margin: 0px 0px 5px 10px; /* 8px 0 22px 20px; */
     line-height: 1.7em;
     font-style: normal;
     text-align: justify;
@@ -250,7 +250,7 @@ ul#nav li:hover a
 .sidebar h3
 { padding: 0px 0 0 0;
   font: normal 90% Arial, Helvetica, sans-serif;
-  height: 20px;
+  height: 15px;
   text-shadow: 0px 0px 0px #fff;
 }
   
@@ -258,6 +258,7 @@ ul#nav li:hover a
 { color: #000;
   font-size: 90%;
   text-indent:0px;
+  margin-bottom:5px;
 }
 
 
@@ -275,10 +276,12 @@ ul#nav li:hover a
 { width: 680px;
   padding: 5px;
   margin: 0px 0 0 0;
-  float: left;}
+  float: left;
+  position:relative;
+}
  
 .content_image
-{ float: right; 
+{ float: left; 
   width: auto;
   height: auto;
   margin: 0 10px 10px 10px;
@@ -288,6 +291,7 @@ ul#nav li:hover a
   /* -webkit-box-shadow: inset 0 0 5px #ADADAD; */
   /* box-shadow:         inset 0 0 5px #ADADAD; */
 }
+
   
 .content_container
 { width: 320px;
