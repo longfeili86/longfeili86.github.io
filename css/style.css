@@ -75,7 +75,7 @@ ul
 }
 
 ul li
-{ margin: 0 0 5px 0;}
+{ margin: 0 0 10px 20px;}
 
 ol
 {
@@ -87,7 +87,7 @@ ol
 }
 
 ol li
-{ margin: 0 0 5px 0;}
+{ margin: 0 0 10px 20px;}
 
 #main, header, #banner, #menubar, #site_content, footer, #content_grey, nav
 { margin-left: auto; 
