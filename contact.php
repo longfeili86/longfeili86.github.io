@@ -39,8 +39,8 @@
             #   <li><a href="#">University of Delaware</a></li>
             # </ul>
           </li>
-          <li class="selected"><a href="News.html">News</a></li>
-	  <li><a href="contact.php">Contact</a></li>
+          <li><a href="news.html">News</a></li>
+	  <li class="selected"><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
