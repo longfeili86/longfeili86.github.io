@@ -40,7 +40,7 @@
             # </ul>
           </li>
           <li><a href="news.html">News</a></li>
-	  <li class="selected"><a href="contact.php">Contact</a></li>
+	  # <li class="selected"><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
