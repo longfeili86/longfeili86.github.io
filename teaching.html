@@ -1,74 +1,61 @@
-<!DOCTYPE html> 
+<!DOCTYPE HTML>
 <html>
 
-  <!DOCTYPE html> 
-<html>
+<head>
+  <title>Longfei Li</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
 
-  <head>
-    <title>Teaching</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- modernizr enables HTML5 elements and feature detects -->
-    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-    <!-- begin include side bar -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#sidebar").load("sidebar.html"); 
-      });
-    </script>
-    <!-- end include side bar -->
-    <!-- begin include footer -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#footer").load("footer.html"); 
-      });
-    </script>
-    <!-- end include footer -->    
-  </head>
-
-  <body>
-    <div id="main">
-      <header>
-	<div id="banner">
-	  <div id="welcome">
-	    <h3>Longfei Li <span></span></h3>
-	  </div><!--close welcome-->
-	  <!-- <div id="welcome_slogan"> -->
-	  <!--   <h3>Your company slogan here</h3> -->
-	  <!-- </div><\!--close welcome_slogan-\->	 -->		
-	</div><!--close banner-->
-      </header>
-
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><span>Longfei Li</span></h1>
+          <!-- <h2>assistant professor of applied mathematics</h2> -->
+        </div>
+      </div>
       <nav>
-	<div id="menubar">
-          <ul id="nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="research.html">RESEARCH</a></li>
-            <li><a href="publications.html">PUBLICATIONS</a></li>
-            <li class="current"><a href="teaching.html">TEACHING</a></li>
-	    <li><a href="news.html">NEWS</a></li>
-            <!-- <li><a href="contact.html">Contact Us</a></li> -->
-          </ul>
-	</div><!--close menubar-->	
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">About</a></li>
+	  <li><a href="research.html">Research</a></li>
+          <li  class="selected"><a href="teaching.html">Teaching</a>
+            <!-- <ul> -->
+            <!--   <li><a href="#">University of Louisiana at Lafayette</a> -->
+	    <!--   <\!-- <ul> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down One</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Two</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Three</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Four</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Five</a></li> -\-> -->
+            <!--   <\!-- </ul> -\-> -->
+	    <!--   </li> -->
+            <!--   <li><a href="#">University of Delaware</a></li> -->
+            <!-- </ul> -->
+          </li>
+          <li><a href="News.html">News</a></li>
+	  <li><a href="contact.php">Contact</a></li>
+        </ul>
       </nav>
-      
-      <div id="site_content">
+    </header>
+    <div id="site_content">
 
-	<div id="sidebar"></div>
+      <!-- Here goes the gallery. Uncomment the next line to  include gallery in this webpage-->
+      <!-- <script src="gallery.js"></script> -->
+     
+      <script src="sidebar.js"></script>
 
-	
-	<div id="content">
-	  <div class="content_item">
-	  <h1>Teaching Exeperiences</h1>
-	  </div><!--close content_item-->
-	  <div class="content_item">
-	    <h2>University of Louisiana at Lafayette</h2>
-	      <p>
-		<ul>
+
+<!-- Here goes the contents for this webpage. Modify this block of code for each webpage -->
+<div class="content">
+  <p>   <h1>Teaching Exeperiences</h1>
+		<ul>    <h3>University of Louisiana at Lafayette</h3>
 		  <li> Fall 2020, MATH 555 (G): Numerical Analysis I (graduate) </li>
 		  <li> Fall 2020, MATH 487 (U/G): Computational Mathematics. </li>
 		  <li> Spring 2020, MATH 455 (U/G): Numerical Methods. </li>
@@ -84,9 +71,8 @@
 		</ul>
 	      </p>
 	      
-	  <h2>University of Delaware</h2>
-	    <p>
-	      <ul>
+  <p>
+	      <ul><h3>University of Delaware</h3>
 		<li>Winter 2014, MATH 243: Analytic Geometry & Calculus C</li>
 		<li>Winter 2013, MATH 243: Analytic Geometry & Calculus C</li>
 		<li>Spring 2010, MATH 241: Analytic Geometry & Calculus A (TA) </li>
@@ -94,16 +80,24 @@
 		<li>Fall 2009, MATH 242: Analytic Geometry & Calculus B (Grader) </li>
 	      </ul>
 	    </p>
-	</div><!--close content_item-->
-      </div><!--close content-->   
-    </div><!--close site_content-->  	
-</div><!--close main-->
-
-<div id="footer"></div>
+</div>
+<!-- Here goes the contents for this webpage -->
 
 
-<!-- javascript at the bottom for fast page loading -->
-<script type="text/javascript" src="js/jquery.js"></script>	
-
+      
+    </div>
+    <script src="footer.js"></script> 
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
 </body>
 </html>

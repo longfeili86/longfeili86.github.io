@@ -1,163 +1,152 @@
-<!DOCTYPE html> 
+<!DOCTYPE HTML>
 <html>
 
-  <!DOCTYPE html> 
-<html>
+<head>
+  <title>Longfei Li</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
 
-  <head>
-    <title>News</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- modernizr enables HTML5 elements and feature detects -->
-    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-    <!-- begin include side bar -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#sidebar").load("sidebar.html"); 
-      });
-    </script>
-    <!-- end include side bar -->
-    <!-- begin include footer -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#footer").load("footer.html"); 
-      });
-    </script>
-    <!-- end include footer -->    
-  </head>
-
-  <body>
-    <div id="main">
-      <header>
-	<div id="banner">
-	  <div id="welcome">
-	    <h3>Longfei Li <span></span></h3>
-	  </div><!--close welcome-->
-	  <!-- <div id="welcome_slogan"> -->
-	  <!--   <h3>Your company slogan here</h3> -->
-	  <!-- </div><\!--close welcome_slogan-\->	 -->		
-	</div><!--close banner-->
-      </header>
-
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><span>Longfei Li</span></h1>
+          <!-- <h2>assistant professor of applied mathematics</h2> -->
+        </div>
+      </div>
       <nav>
-	<div id="menubar">
-          <ul id="nav">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="research.html">RESEARCH</a></li>
-            <li><a href="publications.html">PUBLICATIONS</a></li>
-            <li><a href="teaching.html">TEACHING</a></li>
-	    <li class="current"><a href="news.html">NEWS</a></li>
-            <!-- <li><a href="contact.html">Contact Us</a></li> -->
-          </ul>
-	</div><!--close menubar-->	
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">About</a></li>
+	  <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a>
+            <!-- <ul> -->
+            <!--   <li><a href="#">University of Louisiana at Lafayette</a> -->
+	    <!--   <\!-- <ul> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down One</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Two</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Three</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Four</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Five</a></li> -\-> -->
+            <!--   <\!-- </ul> -\-> -->
+	    <!--   </li> -->
+            <!--   <li><a href="#">University of Delaware</a></li> -->
+            <!-- </ul> -->
+          </li>
+          <li class="selected"><a href="news.html">News</a></li>
+	  <li><a href="contact.php">Contact</a></li>
+        </ul>
       </nav>
-      
-      <div id="site_content">
+    </header>
+    <div id="site_content">
 
-	<div id="sidebar"></div>
+      <!-- Here goes the gallery. Uncomment the next line to  include gallery in this webpage-->
+      <!-- <script src="gallery.js"></script> -->
+     
+      <script src="sidebar.js"></script>
 
-	
-	<div id="content">
-	  <div class="content_item">
-	    <h1>Group News</h1>
-	    </br>
-	     <h3> June, 2019</h3>
-	        <ul>
-		 I am invited to speak at the Department of Mathematics Colloquium at Jilin University, Changchun, China. <a href="http://math.jlu.edu.cn/info/1029/6234.htm">[Link]</a>
-	    </ul>
-	    <h3> April, 2019</h3>
-	        <ul>
+
+<!-- Here goes the contents for this webpage. Modify this block of code for each webpage -->
+<div class="content">
+  <p>
+    <h1>Group News</h1>
+    <ul>	     <h3> June, 2019</h3>
+      <li>	 I am invited to speak at the Department of Mathematics Colloquium at Jilin University, Changchun, China. <a href="http://math.jlu.edu.cn/info/1029/6234.htm">[Link]</a></li>
+      <h3> April, 2019</h3>
+      <li>
 		 I am invited to speak at the Clements Scientific Computing Seminar at Southern Methodist University, Dallas, TX.  <a href="https://www.smu.edu/Dedman/academics/departments/math/Seminars">[Link]</a>
-	    </ul>
+	    </li>
 	<h3> March, 2019</h3>
-	    <ul>
+	    <li>
 		I organize a professional Minisymposium titled "High-order accurate numerical methods for fluid-structure interaction problems" at the SIAM Conference on Computational Science and Engineering (CSE19), Spokane, Washington. <a href="http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=65927">[Link]</a>
-	    </ul>
+	    </li>
 	    <h3> February, 2019</h3>
-	        <ul>
+	        <li>
 		 I am invited to speak at  the Computational and Applied Mathematics (CAM) seminar at Mississippi State University, MS.  <a href=https://www.math.msstate.edu/events/events.php?id=6132">[Link]</a>
-	    </ul>
-	    <ul>
+	    </li>
+	    <li>
 		I present my research on  at the  Scientific Computing Around Louisiana (SCALA) conference, Tulane University, New Orleans, LA.  <a href="https://www2.tulane.edu/sse/ccs/news/scala-2019.cfm">[Link]</a>
-	    </ul>
+	    </li>
 	    
 	    <h3> December, 2018</h3>
-	      <ul>
+	      <li>
 	      I am invited to speak at the School of Information Science and Technology at ShanghaiTech University, Shanghai, China.   <a href="http://sist.shanghaitech.edu.cn/2018/1224/c2859a38354/page.htm">[Link]</a>
-	      </ul>
-	       <ul>
+	      </li>
+	       <li>
 	      I am invited to present at the department of mathematics senimar at Southern University of Science and Technology, Shenzhen, China.   <a href="http://math.sustc.edu.cn/pastevent/11177.html">[Link]</a>
-	      </ul>
-	    	    <ul>
+	      </li>
+	    	    <li>
 	      I am invited to present at the colloquium of  the school of Science at Harbin Institute of Technology, Shenzhen, China.   <a href="http://www.hitsz.edu.cn/article/view/id-52142.html">[Link]</a>
-	      </ul>
-	    <ul>
+	      </li>
+	    <li>
 	      I am invited to speak at the colloquium of  the  college of mathematics  at Sichuan University, Chengdu, China.   <a href="http://math.scu.edu.cn/info/1062/4315.htm">[Link]</a>
-	      <ul>
-	      </ul>
+	      <li>
+	      </li>
 	      I am invited to speak at the  school of mathematical sciences colloquium at University of Electronic Science and Technology of China, Chengdu, China.  <a href="http://www.math.uestc.edu.cn/a/shouye/xueshuxinxi/2018/1204/2267.html">[Link]</a>
-	    </ul>
+	    </li>
 	    <h3> November, 2018</h3>
-	    <ul>
+	    <li>
 	      I participate the workshop on "Celebrating 75 Years of Mathematics of Computation" at ICERM of Brown University.
-	    </ul>
+	    </li>
 	    <h3> October, 2018</h3>
-	    <ul>
+	    <li>
 		I organize a professional Minisymposium titled "High-order accurate numerical methods for multi-physics problems" at the 1st Annual Meeting of SIAM Texas-Louisiana Section, Louisiana State University  <a href="https://www.math.lsu.edu/siam-texas-louisiana-section/minisymposia.html">[Link]</a>
-	    </ul>
-	    <ul>
+	    </li>
+	    <li>
 	      I   present  my research on "Recent Advance on Extending the Added-Mass Partitioned (AMP) Scheme for Solving FSI Problems Coupling Incompressible Flows with Elastic Beams to the 3D Regime" at the 14th Symposium on Overset Composite Grids and Solution Technology,  University of Maryland.  <a href="http://2018.oversetgridsymposium.org/program.php">[Link]</a>
-	    </ul>	      
+	    </li>	      
 	    <h3> August, 2018</h3>
-	    <ul>
+	    <li>
 	       I participate the workshop on "Advances in PDEs: Theory, Computation and Application to CFD" at ICERM of Brown University.
-	    </ul>	    	      
+	    </li>	    	      
 	    <h3> June, 2018</h3>
-	    <ul>
+	    <li>
 	       I am  awarded the Mathematics and Physical Sciences-Collaboration Grants for Mathematicians from the Simons Foundation (2018--23) for the research project "Numerical methods for some fluid-structure interaction problems." (Terminated due to receipt of another external grant)
-	    </ul>
+	    </li>
 	    <h3>May, 2018</h3>
-	    <ul>
+	    <li>
 	    I am awarded a grant from Louisiana Board of  Regents Support Fund (BoRSF) (2018--21) for the research project "High-Order Computational Methods for Beams and Plates with Applications to Fluid-Structure Interaction Problems."
-	    </ul>
+	    </li>
 	    <h3>April, 2018</h3>
-	    <ul>I am  invited to present  at the Computational Mathematics Seminar Series at  the Center for Computation and Technology at  Louisiana State University. <a href="https://www.cct.lsu.edu/lectures/overcoming-added-mass-instability-coupling-incompressible-flows-and-elastic-beams">[Link]</a>
-	    </ul>
+	    <li>I am  invited to present  at the Computational Mathematics Seminar Series at  the Center for Computation and Technology at  Louisiana State University. <a href="https://www.cct.lsu.edu/lectures/overcoming-added-mass-instability-coupling-incompressible-flows-and-elastic-beams">[Link]</a>
+	    </li>
 	    <h3>December, 2017</h3>
-            <ul>
+            <li>
 	   Research article "Numerical methods for thermally stressed shallow shell equations" is  submitted to <i>J. Comput. Appl. Math. </i> for publication. <a href="https://arxiv.org/abs/1712.03269">[preprint]</a>  <br />
-	 </ul>        
+	 </li>        
 	    <h3>August, 2017</h3>
-	    <ul>
+	    <li>
 	<!-- <span style="color: red;">Good News: </span> -->
 	 Research article "Computed flow and fluorescence over the ocular surface" is  published in <i>Math. Med. Biol. </i> <a href="https://academic.oup.com/imammb/article-abstract/doi/10.1093/imammb/dqx011/4259013/Computed-flow-and-fluorescence-over-the-ocular?redirectedFrom=fulltext">[link]</a>.
-	    </ul>
-      <ul>
-	I start a  new position  as Assistant  Professor  at University of Louisiana.
-      </ul>        
-	    
-	    
-	    
-	    
-
-	   
-	
-
-	   
-	</div><!--close content_item-->
-      </div><!--close content-->   
-    </div><!--close site_content-->  	
-</div><!--close main-->
-
-<div id="footer"></div>
+	    </li>
+      <li>
+	I start a position as Assistant  Professor  at University of Louisiana.
+      </li>       
+</p> 
+</div>
+<!-- Here goes the contents for this webpage -->
 
 
-<!-- javascript at the bottom for fast page loading -->
-<script type="text/javascript" src="js/jquery.js"></script>	
-
+      
+    </div>
+    <script src="footer.js"></script> 
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
 </body>
 </html>

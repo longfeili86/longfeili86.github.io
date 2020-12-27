@@ -1,0 +1,7 @@
+run php localhost:
+
+in terminal:
+php -S 127.0.0.1:8000
+
+then in brower go to:
+http://127.0.0.1:8000

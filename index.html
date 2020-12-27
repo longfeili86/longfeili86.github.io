@@ -1,110 +1,103 @@
-<!DOCTYPE html> 
+<!DOCTYPE HTML>
 <html>
 
-  <head>
-    <title>Longfei Li</title>
-    <meta name="description" content="website description" />
-    <meta name="keywords" content="website keywords, website keywords" />
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- modernizr enables HTML5 elements and feature detects -->
-    <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-    <!-- begin include side bar -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#sidebar").load("sidebar.html"); 
-      });
-    </script>
-    <!-- end include side bar -->
-    <!-- begin include footer -->
-    <script src="js/jquery.js"></script> 
-    <script> 
-      $(function(){
-      $("#footer").load("footer.html"); 
-      });
-    </script>
-    <!-- end include footer -->    
-  </head>
+<head>
+  <title>Longfei Li</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
 
-  <body>
-    <div id="main">
-      <header>
-	<div id="banner">
-	  <div id="welcome">
-	    <h3>Longfei Li <span></span></h3>
-	  </div><!--close welcome-->
-	  <!-- <div id="welcome_slogan"> -->
-	  <!--   <h3>Your company slogan here</h3> -->
-	  <!-- </div><\!--close welcome_slogan-\->	 -->		
-	</div><!--close banner-->
-      </header>
-
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><span>Longfei Li</span></h1>
+          <!-- <h2>assistant professor of applied mathematics</h2> -->
+        </div>
+      </div>
       <nav>
-	<div id="menubar">
-          <ul id="nav">
-            <li class="current"><a href="index.html">HOME</a></li>
-            <li><a href="research.html">RESEARCH</a></li>
-            <li><a href="publications.html">PUBLICATIONS</a></li>
-            <li><a href="teaching.html">TEACHING</a></li>
-	    <li><a href="news.html">NEWS</a></li>
-            <!-- <li><a href="contact.html">Contact Us</a></li> -->
-          </ul>
-	</div><!--close menubar-->	
-      </nav>	
-      
-      <div id="site_content">
-	
-	<div id="sidebar"></div>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">About</a></li>
+	  <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a>
+            <!-- <ul> -->
+            <!--   <li><a href="#">University of Louisiana at Lafayette</a> -->
+	    <!--   <\!-- <ul> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down One</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Two</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Three</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Four</a></li> -\-> -->
+            <!--   <\!--     <li><a href="#">Sub Drop Down Five</a></li> -\-> -->
+            <!--   <\!-- </ul> -\-> -->
+	    <!--   </li> -->
+            <!--   <li><a href="#">University of Delaware</a></li> -->
+            <!-- </ul> -->
+          </li>
+          <li><a href="News.html">News</a></li>
+	  <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+
+      <!-- Here goes the gallery. Uncomment the next line to  include gallery in this webpage-->
+      <!-- <script src="gallery.js"></script> -->
+     
+      <script src="sidebar.js"></script>
 
 
-
-	
-	<div id="content">
-          <div class="content_item">
-	     
-	    <h2>Education</h2>
-	    <p><ul>
+<!-- Here goes the contents for this webpage. Modify this block of code for each webpage -->
+<div class="content">
+  <p><ul>
+      <h1>Education</h1>
 		<li><b>Ph.D.</b> in Applied Mathematics, 08/2014, University of Delaware <br />
 		  <i>Advisor: Professor  <a href="http://www.math.udel.edu/~braun/">Richard J. Braun</a> </i></li>
 		<li><b>M.S</b>  in Applied Mathematics, 05/2011, University of Delaware</li>
 		<li><b>B.S.</b> in Mathematics, 06/2009, Sichuan University</li>
-	    </ul></p>
-	    <h2>Employment</h2>      
-            <p><ul>
+	    </ul>
+  <ul>
+      <h1>Employment</h1>      
 		<li><b>Assistant Professor</b>, University of Louisiana at Lafayette, 08/2017 -- present</li>
 		<li><b>Margaret A. Darrin Postdoctoral Fellow</b>, Rensselaer Polytechnic Institute, 09/2014 -- 08/2017<br />
 		  <i>Advisor: Professor  <a href="http://homepages.rpi.edu/~henshw/">William D. Henshaw</a> </i></li>
 		<li><b>Gore Modeling and Simulation Summer Intern</b>, W. L. Gore & Associates, 06 -- 08/2014</li>
 		<li><b>Long term visitor</b>, Institute for Mathematics and its Applications (IMA), 02 -- 03/2014</li>
 		<li><b>Research Assistant</b>, University of Delaware, 09/2010 -- 07/2014</li>
-	    </ul> </p>
-
-	    <h2>Research Interests</h2>
-	    <p>
-	      <ul>
+	    </ul> 
+<ul>
+      <h1>Research Interests</h1>
 		<li>High performance scientific computation and numerical analysis</li>
 		<li>Mathematical modeling and high fidelity simulations </li>
 	      </ul>
-	    </p>
-	    <h2>Software</h2>
-	    <p>
-	      <ul>
+ <ul>
+      <h1>Software</h1>
 		<li> I am a member of the development team of <a href="http://www.overtureframework.org"><i>OvertureFramework</i> </a></li>
 	      </ul>
 	    </p>
-
-	    
-	  </div><!--close content_item-->
-	</div><!--close content-->   
-      </div><!--close site_content-->  	
-    </div><!--close main-->
-
-    <div id="footer"></div>
+      </div>
+<!-- Here goes the contents for this webpage -->
 
 
-    <!-- javascript at the bottom for fast page loading -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    
-  </body>
+      
+    </div>
+    <script src="footer.js"></script> 
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
 </html>
